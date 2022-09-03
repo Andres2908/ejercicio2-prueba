@@ -3,6 +3,8 @@ import React, {useState} from "react";
 export function Botones() {
     const [count, setCount] = useState(0)
     const [countColor, setCountColor] = useState({
+        marginLeft: 300,
+        marginRight: 300,
         fontSize: 40,
         background: "red",
     })
