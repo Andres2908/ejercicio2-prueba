@@ -10,9 +10,11 @@ export function Botones() {
     })
     const addCount = () => {
         setCount(count+1)
+        setCountColor({...countColor, background: "white"})
     }
     const substracCount = () => {
         setCount(count-2)
+        setCountColor({...countColor, background: "white"})
     }
     const divideCount = () => {
         backgroundCount(count % 3)
